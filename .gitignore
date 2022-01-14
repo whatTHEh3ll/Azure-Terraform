@@ -1,0 +1,21 @@
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+beconf.tvars
+
+backend/backend.tfvars
+
+Azure-ssh/**
+
+*.tfstate
+*.backup
+*.tfvars
+*.json
+*.txt
+*.log
+
+.env
+
+# use 'git rm --cached file.name' to ignore commited file
+# use 'git status --ignored' to see ignore files
