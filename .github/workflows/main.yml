@@ -1,6 +1,12 @@
 name: GitGuardian scan
 
-on: [push, pull_request]
+on: 
+  push:
+    branches:
+    - main
+    - Azure-multi-spot
+    - Azure-multi-vms
+    - spot
 
 jobs:
   scanning:
